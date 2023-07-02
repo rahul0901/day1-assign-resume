@@ -38,6 +38,7 @@
     font-weight: bold;
     font-size: large;
 }
+
 .right{
     flex: 1 1 70%;
     border: 1px solid black;
@@ -46,5 +47,32 @@
     background: rgb(179, 187, 216);
 }
 
-.right p{
+.skill{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.skill span{
+    flex-direction: row ;
+    margin: 10px;
+}
+
+.skill .skill-text{
+    font-weight: bold;
+    font-size: large;
+}
+
+.engineering, .hsc, .ssc{
+    margin: 10px;
+}
+
+.hobbies{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.hobbies span{
+    margin: 10px;
 }
