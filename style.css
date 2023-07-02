@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    /* align-items: center; */
+    margin: 10px 20px;
+    height: 600px;
+}
+
+.left{
+    flex: 1 1 30%;
+    border: 1px solid black;
+    padding: 10px;
+    background: rgb(239, 228, 175);
+}
+
+.left p{
+    font-weight: 500;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+.contact span{
+    flex-direction: row ;
+    margin: 10px;
+}
+
+.contact .contact-text{
+    font-weight: bold;
+    font-size: large;
+}
+.right{
+    flex: 1 1 70%;
+    border: 1px solid black;
+    padding: 10px;
+    border: none;
+    background: rgb(179, 187, 216);
+}
+
+.right p{
+}
